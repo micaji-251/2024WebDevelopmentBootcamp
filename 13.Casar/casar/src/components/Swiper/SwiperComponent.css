@@ -1,0 +1,30 @@
+.mySwiperBanner {
+  height: 424px;
+  .swipeContainer {
+    width: 1482px;
+    height: 424px;
+    margin: 0px auto;
+    img {
+      width: 100%;
+    }
+  }
+
+  .swiper-button-prev,
+  .swiper-button-next,
+  .swiper-button-prev::after,
+  .swiper-button-next::after,
+  .swiper-button-prev::before,
+  .swiper-button-next::before {
+    color: rgb(194, 14, 26);
+    background-color: white;
+    border-radius: 50%;
+    box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.25);
+    font-size: 25px;
+    height: 41px;
+    width: 41px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 700;
+  }
+}

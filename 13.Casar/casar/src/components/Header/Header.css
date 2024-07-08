@@ -1,0 +1,145 @@
+.Header {
+  display: block;
+  width: 100%;
+
+  .searchBarContainer {
+    padding: 15px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .searchBar {
+    width: 1368px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    column-gap: 10px;
+
+    .logo {
+      padding: 12px 24px;
+    }
+
+    .menuButton {
+      background-color: #c20e1a;
+      color: white;
+      text-transform: capitalize;
+      font-size: 18px;
+      border: none;
+      padding: 10px 20px;
+      border-radius: 8px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      column-gap: 15px;
+      cursor: pointer;
+    }
+
+    .menuButton:hover,
+    .menuButton:focus {
+      transition: 0.2s;
+      background-color: #e82936;
+      border-color: #e82936;
+    }
+
+    .inputContainer {
+      width: 676px;
+      display: flex;
+      justify-content: space-between;
+      border: 1px solid black;
+      padding: 15px 20px;
+      border-radius: 10px;
+
+      .inputSearch {
+        width: 100%;
+      }
+
+      .searchIcon {
+        cursor: pointer;
+      }
+
+      .searchInput,
+      .searchInput:hover,
+      .searchInput:focus {
+        border: none;
+        outline: none;
+        color: rgb(114, 114, 115);
+        width: 100%;
+        font-size: 16px;
+        font-weight: 500;
+      }
+    }
+    .icons {
+      display: flex;
+      column-gap: 10px;
+      align-items: center;
+      justify-content: center;
+
+      .icon {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        row-gap: 5px;
+        padding: 5px 15px;
+        cursor: pointer;
+        border-radius: 4px;
+      }
+
+      .icon:hover,
+      .icon:focus {
+        background-color: rgb(255, 232, 234);
+        transition: all 0.2s;
+      }
+
+      .iconName {
+        font-size: 14px;
+        font-weight: 500;
+      }
+    }
+  }
+  .navBar {
+    background-color: rgb(237, 237, 237);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 0;
+    font-size: 14px;
+
+    .navBarContainer {
+      width: 1368px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+
+      .navBarLeftList {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        column-gap: 48px;
+      }
+
+      .navBarRightList {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        column-gap: 48px;
+      }
+
+      .navBarOption:hover,
+      .navBarOption:focus {
+        color: #c20e1a;
+        transition: 0.3s;
+        cursor: pointer;
+      }
+    }
+  }
+}
+.navStatic {
+  position: -webkit-sticky;
+  position: sticky;
+  padding: 1px;
+  top: 0;
+  left: 0;
+  z-index: 999;
+  background-color: white;
+}

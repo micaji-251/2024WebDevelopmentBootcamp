@@ -1,0 +1,183 @@
+.mySwiper {
+  height: 300px;
+  padding: 0 30px;
+
+  .swiper-button-prev,
+  .swiper-button-next,
+  .swiper-button-prev::after,
+  .swiper-button-next::after,
+  .swiper-button-prev::before,
+  .swiper-button-next::before {
+    color: rgb(194, 14, 26);
+    background-color: white;
+    border-radius: 50%;
+    box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.25);
+    font-size: 25px;
+    height: 41px;
+    width: 41px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 700;
+  }
+}
+
+.SwiperContainer {
+  width: 190px;
+  height: 190px;
+  background-color: white;
+  border-radius: 25px;
+  img {
+    width: 100%;
+    height: 100%;
+    border-radius: 15px;
+  }
+
+  .SwiperName {
+    font-size: 16px;
+    padding: 10px 0;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+  }
+}
+
+.SwiperContainer:focus,
+.SwiperContainer:hover {
+  border-radius: 25px;
+  transition: all 0.2s;
+  box-shadow: 1px 5px 10px rgba(0, 0, 0, 0.2);
+}
+.swiper-pagination {
+  margin-top: 20px;
+}
+.swiper-pagination-bullet {
+  width: 15px;
+  height: 15px;
+}
+.swiper-pagination-bullet-active {
+  background: rgb(194, 14, 26);
+}
+
+.flexContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  .imageIcon {
+    margin-right: 15px;
+  }
+}
+.sectionTitle {
+  font-size: 24px;
+  text-align: center;
+  padding: 50px 0;
+}
+
+.SwiperContainer2 {
+  width: 230px;
+  height: 230px;
+  border-radius: 75px 20px 75px 25px;
+  overflow: hidden;
+
+  .SwiperName {
+    display: none;
+
+    img {
+      width: 100%;
+      height: 100%;
+    }
+  }
+}
+
+.SwiperContainer2:focus,
+.SwiperContainer2:hover {
+  border-radius: 75px 20px 75px 25px;
+  transition: all 0.2s;
+  box-shadow: -2px 0px 5px 2px rgba(209, 28, 28, 0.411),
+    2px 0px 5px 2px rgba(209, 28, 28, 0.411);
+}
+
+.mySwiper3 {
+  height: 500px;
+  padding: 0 30px;
+
+  .swiper-slide {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 15px 0;
+    height: 427px;
+    gap: 20px;
+  }
+  .swiper-slide:focus,
+  .swiper-slide:hover {
+    border-radius: 10px;
+    transition: all 0.2s;
+    box-shadow: 1px 5px 10px rgba(0, 0, 0, 0.2);
+  }
+
+  .SwiperName {
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    text-align: center;
+    height: 50px;
+    overflow: hidden;
+  }
+  .brand {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    text-align: center;
+  }
+  .originalPrice {
+    color: rgb(137, 137, 137);
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    text-align: center;
+    text-decoration: line-through;
+    padding: 5px 0;
+  }
+  .discount {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgb(247, 208, 71);
+    padding: 8px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    border-radius: 0 5px 5px 0;
+  }
+
+  .interest {
+    position: absolute;
+    right: 0;
+    top: 190px;
+    font-size: 12px;
+    font-weight: 600;
+    color: white;
+    background-color: rgb(151, 71, 255);
+    padding: 6px 12px;
+    border-radius: 5px 0 0 5px;
+  }
+  .price {
+    color: rgb(194, 14, 26);
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    text-align: center;
+    padding: 10px 0;
+  }
+}
+
+.SwiperContainer3 {
+  height: 216px;
+}
+
+.SwiperContainer3:focus,
+.SwiperContainer3:hover {
+  border-radius: 2px;
+  transition: all 0.2s;
+  box-shadow: none;
+}

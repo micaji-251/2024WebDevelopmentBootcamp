@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mondrian Project</title>
+    <style>
+      *,
+      *::after,
+      *::before {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        list-style: none;
+      }
+
+      .container {
+        margin: 50px auto;
+        background-color: #f0f1ec;
+        display: grid;
+        width: 748px;
+        height: 748px;
+        background-color: black;
+        gap: 9px;
+        grid-template-columns: 320px 198px 153px 50px;
+        grid-template-rows: 414px 130px 155px 22px;
+        border: none;
+
+        .red {
+          background-color: #e72f24;
+        }
+
+        .grey2 {
+          background-color: #f0f1ec;
+          grid-column-start: 2;
+          grid-column-end: 5;
+        }
+        .grey3 {
+          background-color: #f0f1ec;
+          grid-row-start: 2;
+          grid-row-end: 4;
+        }
+        .grey4 {
+          background-color: #f0f1ec;
+          grid-row-start: 2;
+          grid-row-end: 4;
+          grid-column-start: 2;
+          grid-column-end: 4;
+        }
+        .blue {
+          background-color: #004592;
+        }
+        .grey5 {
+          background-color: #f0f1ec;
+          grid-row-start: 3;
+          grid-row-end: 5;
+        }
+        .grey6 {
+          background-color: #f0f1ec;
+        }
+        .yellow {
+          background-color: #f9d01e;
+        }
+        .black {
+          background-color: #232629;
+        }
+      }
+
+      /* 
+    Write your CSS here 
+    Gap Colour: #000
+    White: #F0F1EC
+    Red: #E72F24
+    Black: #232629
+    Blue: #004592
+    Yellow: #F9D01E
+
+    For dimensions, see dimensions.png image.
+    HINT: Remember you can't change the properties of grid lines.
+    But grid lines are transparent!
+    */
+    </style>
+  </head>
+
+  <body>
+    <div class="container">
+      <div class="red"></div>
+      <div class="grey2"></div>
+
+      <div class="grey3"></div>
+      <div class="grey4"></div>
+      <div class="blue"></div>
+      <div class="grey5"></div>
+
+      <div class="grey6"></div>
+      <div class="yellow"></div>
+      <div class="black"></div>
+    </div>
+  </body>
+</html>

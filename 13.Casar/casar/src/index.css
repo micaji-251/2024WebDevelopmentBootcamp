@@ -1,0 +1,83 @@
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: 'BentonSansRegular';
+  src: local('BentonSansRegular'),
+    url('../src/assets/font/BentonSansBBVA-Regular.woff') format('woff');
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: 'BentonSansBold';
+  src: local('BentonSansBold'),
+    url('../src/assets/font/BentonSansBBVA-Bold.woff') format('woff');
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: 'BentonSansLight';
+  src: local('BentonSansLight'),
+    url('../src/assets/font/BentonSansBBVA-Light.woff') format('woff');
+  font-weight: light;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+.roboto-bold {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+body {
+  height: 3000px;
+}
+
+.mainSection {
+  width: 1368px;
+  margin: 30px auto;
+}
+
+.grid1 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 24px;
+  margin: 20px 0;
+}
+.grid2 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  column-gap: 40px;
+  padding: 40px 0;
+  margin-bottom: 20px;
+}
+.sectionTitle {
+  font-size: 24px;
+  text-align: center;
+  padding: 50px 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  .iconTitle {
+    margin-right: 10px;
+  }
+}
+
+.interestContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  img {
+    width: 100%;
+  }
+}

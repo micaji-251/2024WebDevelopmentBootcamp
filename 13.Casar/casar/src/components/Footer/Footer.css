@@ -1,0 +1,152 @@
+.Footer {
+  background-color: rgb(218, 218, 218);
+}
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  width: 1368px;
+  margin: 0 auto;
+
+  .footerGridItem {
+    padding: 20px;
+  }
+
+  .footerTitle {
+    font-size: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    padding: 25px 0;
+  }
+
+  .footerText {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    padding: 5px 0;
+    cursor: pointer;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+
+    .phone {
+      color: #c20e1a;
+      margin-right: 10px;
+      font-size: 18px;
+      width: 8%;
+      height: 40px;
+    }
+    span.text {
+      font-weight: 400;
+      text-decoration: none;
+      width: 90%;
+    }
+
+    span {
+      text-decoration: underline;
+    }
+  }
+  .footerText2 {
+    display: block;
+  }
+
+  .link {
+    font-weight: 500;
+    color: rgb(31, 31, 31);
+  }
+
+  .link:focus,
+  .link:hover {
+    font-weight: 700;
+    text-decoration: underline;
+    transition: all 0.5s;
+  }
+
+  .footerText2 {
+    font-size: 14px;
+    padding: 10px 0;
+  }
+
+  .inputFooter {
+    border: 2px solid red;
+    padding: 15px 20px;
+    background-color: rgb(218, 218, 218);
+    border-radius: 10px;
+    width: 100%;
+    font-size: 16px;
+    font-weight: 400;
+    margin: 10px 0;
+  }
+  .inputCheckbox {
+    display: flex;
+    gap: 10px;
+    align-items: start;
+
+    .footerCheckbox input[type='checkbox'] {
+      border: 1px solid red;
+    }
+  }
+
+  .footerBtn {
+    padding: 5px 40px;
+    height: 48px;
+    color: white;
+    background-color: rgb(194, 14, 26);
+    border-radius: 10px;
+    border: none;
+    font-size: 20px;
+    margin: 20px auto;
+  }
+}
+
+.socialMedia {
+  width: 1368px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-around;
+  padding: 20px 0;
+  border-top: 1px solid black;
+  font-size: 16px;
+
+  .follow {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+
+    img {
+      width: 40px;
+      height: 40px;
+    }
+  }
+
+  .pay {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+  }
+}
+
+.attribution {
+  background-color: rgb(31, 31, 31);
+  padding: 15px 0;
+
+  .width1368 {
+    display: flex;
+    justify-content: space-around;
+    width: 1368px;
+    margin: 0 auto;
+    align-items: center;
+
+    .align {
+      display: flex;
+      align-items: center;
+
+      span {
+        font-size: 14px;
+        font-weight: 400;
+        color: white;
+        font-family: 'Roboto', sans-serif;
+        margin-right: 10px;
+      }
+    }
+  }
+}
