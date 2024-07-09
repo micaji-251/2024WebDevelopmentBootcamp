@@ -1,0 +1,36 @@
+*,
+*::after,
+*::before {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  list-style: none;
+}
+
+.header {
+  padding: 20px 20px;
+  background-color: brown;
+  height: 500px;
+
+  .header-title {
+    background: linear-gradient(
+      to right,
+      rgb(234, 85, 85) 80%,
+      rgba(248, 244, 244, 0.927) 88%,
+      rgb(234, 85, 85) 99%
+    );
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 110px;
+    font-weight: 900;
+  }
+}
+
+.main-container {
+  background-color: antiquewhite;
+  height: 100vh;
+}
+
+footer{
+  text-align: center;
+}

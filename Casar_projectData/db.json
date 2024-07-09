@@ -1,0 +1,506 @@
+{
+  "categorias": [
+    {
+      "id": 1,
+      "name": "Televisores",
+      "image": "https://carsaperupoc.vtexassets.com/assets/vtex.file-manager-graphql/images/a5485266-6f76-4f66-81f6-cec961138d9e___68700959c4e2ec6ce9f47a4db8543a8c.jpg"
+    },
+    {
+      "id": 2,
+      "name": "Celulares",
+      "image": "https://carsaperupoc.vtexassets.com/assets/vtex.file-manager-graphql/images/34d535ce-bdae-459d-9915-bbde227b404f___f87c545db03a3bd927097ecc636c7c64.jpg"
+    },
+    {
+      "id": 3,
+      "name": "Laptops",
+      "image": "https://carsaperupoc.vtexassets.com/assets/vtex.file-manager-graphql/images/495aa715-3df6-475b-bc96-fa09f61a26fc___a3246431b29e18f053c5da94251c271b.jpg"
+    },
+    {
+      "id": 4,
+      "name": "Refrigeradoras",
+      "image": "https://carsaperupoc.vtexassets.com/assets/vtex.file-manager-graphql/images/6c149812-940e-4f3e-8735-fc2cdb8f6b8b___36f8efb62d69903aecb9ad3ca8956400.jpg"
+    },
+
+    {
+      "id": 5,
+      "name": "Lavadoras",
+      "image": "https://carsaperupoc.vtexassets.com/assets/vtex.file-manager-graphql/images/0ee0dee0-b70a-4696-9326-8a8f9591bfad___e678f60e97556eddd4f04dda5af262b0.jpg"
+    },
+    {
+      "id": 6,
+      "name": "Cocinas",
+      "image": "https://carsaperupoc.vtexassets.com/assets/vtex.file-manager-graphql/images/3d9e0585-ab2a-4d92-ac3a-d1fe238d5ca3___24c484f3b70fd27cf71423e9717ac25f.jpg"
+    },
+    {
+      "id": 7,
+      "name": "Congeladoras",
+      "image": "https://carsaperupoc.vtexassets.com/assets/vtex.file-manager-graphql/images/bc0a515c-8bc2-4798-92d2-fb73a862531e___d4248d6570a40ab1edb06cb658792b2f.jpg"
+    },
+    {
+      "id": 8,
+      "name": "Microondas",
+      "image": "https://carsaperupoc.vtexassets.com/assets/vtex/assets-builder/carsaperupoc.carsaperupoc-theme/6.1.0/images/home/seccion1/image6___35f36cbacc82ded1d64abf1a31d137ae.png"
+    },
+    {
+      "id": 9,
+      "name": "Dormitorios",
+      "image": "https://carsaperupoc.vtexassets.com/assets/vtex.file-manager-graphql/images/f32b477c-3528-42a4-a842-be280bd1ab00___5e025ef50a46bc8d1c5bdda13e3be890.jpg"
+    },
+    {
+      "id": 10,
+      "name": "Licuadoras",
+      "image": "https://carsaperupoc.vtexassets.com/assets/vtex.file-manager-graphql/images/062a6d9c-bf75-4ac1-beff-1a1e5053c0b1___3d1fe02d76019f8a64634a60db32212f.jpg"
+    },
+    {
+      "id": 11,
+      "name": "Ollas Arroceras",
+      "image": "https://carsaperupoc.vtexassets.com/assets/vtex.file-manager-graphql/images/03a7640f-0c34-4004-90fe-7899687ef31e___1ea13d43cb2ffb664ee09dbe10bf3077.jpg"
+    },
+    {
+      "id": 12,
+      "name": "Equipos de Sonido",
+      "image": "https://carsaperupoc.vtexassets.com/assets/vtex.file-manager-graphql/images/d0216447-4e10-4797-a0eb-174d0c70dc68___3f124463cdc1772cb6f3e08e0a06e5fd.jpg"
+    }
+  ],
+  "marcas": [
+    {
+      "id": 1,
+      "name": "LG",
+      "image": "https://carsaperupoc.vtexassets.com/assets/vtex.file-manager-graphql/images/c14787aa-8773-4902-9aa7-450ffcb50778___644b5de624645cc826a9a1ec576e0955.png"
+    },
+    {
+      "id": 2,
+      "name": "Samsumg",
+      "image": "https://carsaperupoc.vtexassets.com/assets/vtex.file-manager-graphql/images/05adde13-0452-4b9c-b9f5-561c052f922f___830d39c1d1dc5ff60d208c308695c02b.png"
+    },
+    {
+      "id": 3,
+      "name": "Lenovo",
+      "image": "https://carsaperupoc.vtexassets.com/assets/vtex.file-manager-graphql/images/25ebc29e-3c2b-40b5-a488-dbfbcf36f4e4___b638dc35cb8d908127f49f6e1a13821f.png"
+    },
+    {
+      "id": 4,
+      "name": "HP",
+      "image": "https://carsaperupoc.vtexassets.com/assets/vtex.file-manager-graphql/images/bd7c9bed-d083-4817-8e29-c3ea855e1b66___619737c80af2a474d67d742b82e3a43e.png"
+    },
+    {
+      "id": 5,
+      "name": "Indurama",
+      "image": "https://carsaperupoc.vtexassets.com/assets/vtex.file-manager-graphql/images/c42adf94-e8a5-4bc9-88d1-689f6bd040c4___88096ab10e6eb18115a6810eaf64c930.png"
+    },
+    {
+      "id": 6,
+      "name": "Mabe",
+      "image": "https://carsaperupoc.vtexassets.com/assets/vtex.file-manager-graphql/images/bb944939-814c-4b28-a59d-be3dd21cee93___f54a5d1d28fd20f2531d8687e9510fcb.png"
+    },
+    {
+      "id": 7,
+      "name": "Philip",
+      "image": "https://carsaperupoc.vtexassets.com/assets/vtex.file-manager-graphql/images/6eca329e-d735-4c99-b13e-efd7f2909f31___8e4514587394381a311f6758c444f45f.png"
+    },
+    {
+      "id": 8,
+      "name": "Xiaomi",
+      "image": "https://carsaperupoc.vtexassets.com/assets/vtex.file-manager-graphql/images/37ba0db2-0c49-4b7f-b60d-83f9416f636c___c7e9c8ce7d4a0518802846d690ed0fa2.png"
+    }
+  ],
+  "descuentosLimitados": [
+    {
+      "id": 1,
+      "name": "Refrigeradora Samsung 234L RT22FARADS8 Plata",
+      "image": "https://carsaperupoc.vtexassets.com/arquivos/ids/158244-300-300?v=638455095426300000&width=300&height=300&aspect=true",
+      "price": "S/. 1,229.00",
+      "originalPrice": "S/. 1,999.00",
+      "brand": "SAMSUNG",
+      "discount": "38%",
+      "interest": "Meses sin intereses"
+    },
+    {
+      "id": 2,
+      "name": "Lavadora Automatica Indurama LRI 15 DGR 15K Gris Oscuro",
+      "image": "https://carsaperupoc.vtexassets.com/arquivos/ids/157441-300-300?v=638442309617800000&width=300&height=300&aspect=true",
+      "price": "S/. 999.00",
+      "originalPrice": "S/. 1,599.00",
+      "brand": "INDURAMA",
+      "discount": "38%",
+      "interest": "Meses sin intereses"
+    },
+    {
+      "id": 3,
+      "name": "Celular 5G Samsung A25 6.5 8GB 256GB 50MP Negro",
+      "image": "https://carsaperupoc.vtexassets.com/arquivos/ids/159627-300-300?v=638477755629530000&width=300&height=300&aspect=true",
+      "price": "S/. 369.00",
+      "originalPrice": "S/. 429.00",
+      "brand": "SAMSUNG",
+      "discount": "14%"
+    },
+    {
+      "id": 4,
+      "name": "Televisor Smart 4k 55 Samsung Crystal UHD UN55CU7000GXPE",
+      "image": "https://carsaperupoc.vtexassets.com/arquivos/ids/160223-300-300?v=638529930744700000&width=300&height=300&aspect=true",
+      "price": "S/. 1,329.00",
+      "originalPrice": "S/. 1,999.00",
+      "brand": "SAMSUNG",
+      "discount": "30%",
+      "interest": "Meses sin intereses"
+    },
+    {
+      "id": 5,
+      "name": "Refrigeradora Samsung 234L RT22FARADS8 Plata",
+      "image": "https://carsaperupoc.vtexassets.com/arquivos/ids/155609-300-300?v=638439491535630000&width=300&height=300&aspect=true",
+      "price": "S/. 1,089.00",
+      "originalPrice": "S/. 1,439.00",
+      "brand": "INDURAMA",
+      "discount": "24%"
+    },
+    {
+      "id": 6,
+      "name": "Refrigeradora Samsung 234L RT22FARADS8 Plata",
+      "image": "https://carsaperupoc.vtexassets.com/arquivos/ids/158244-300-300?v=638455095426300000&width=300&height=300&aspect=true",
+      "price": "S/. 1,229.00",
+      "originalPrice": "S/. 1,999.00",
+      "brand": "SAMSUNG"
+    },
+    {
+      "id": 7,
+      "name": "Lavadora Automatica Indurama LRI 15 DGR 15K Gris Oscuro",
+      "image": "https://carsaperupoc.vtexassets.com/arquivos/ids/157441-300-300?v=638442309617800000&width=300&height=300&aspect=true",
+      "price": "S/. 999.00",
+      "originalPrice": "S/. 1,599.00",
+      "brand": "INDURAMA",
+      "discount": "38%",
+      "interest": "Meses sin intereses"
+    },
+    {
+      "id": 8,
+      "name": "Celular 5G Samsung A25 6.5 8GB 256GB 50MP Negro",
+      "image": "https://carsaperupoc.vtexassets.com/arquivos/ids/159627-300-300?v=638477755629530000&width=300&height=300&aspect=true",
+      "price": "S/. 369.00",
+      "originalPrice": "S/. 429.00",
+      "brand": "SAMSUNG"
+    },
+    {
+      "id": 9,
+      "name": "Televisor Smart 4k 55 Samsung Crystal UHD UN55CU7000GXPE",
+      "image": "https://carsaperupoc.vtexassets.com/arquivos/ids/160223-300-300?v=638529930744700000&width=300&height=300&aspect=true",
+      "price": "S/. 1,329.00",
+      "originalPrice": "S/. 1,999.00",
+      "brand": "SAMSUNG",
+      "interest": "Meses sin intereses"
+    },
+    {
+      "id": 10,
+      "name": "Refrigeradora Samsung 234L RT22FARADS8 Plata",
+      "image": "https://carsaperupoc.vtexassets.com/arquivos/ids/155609-300-300?v=638439491535630000&width=300&height=300&aspect=true",
+      "price": "S/. 1,089.00",
+      "originalPrice": "S/. 1,439.00",
+      "brand": "INDURAMA"
+    }
+  ],
+  "Televisores": [
+    {
+      "id": 1,
+      "name": "Televisor Smart UHD 4K LG 55 Pulgadas Led Thinq Ai 55UR7300PSA",
+      "image": "https://carsaperupoc.vtexassets.com/arquivos/ids/160315-300-300?v=638545826705470000&width=300&height=300&aspect=true",
+      "price": "S/. 2,149.00",
+      "originalPrice": "S/. 1,899.00",
+      "brand": "LG",
+      "discount": "12%",
+      "interest": "Meses sin intereses"
+    },
+    {
+      "id": 2,
+      "name": "Televisor Smart UHD 4K LG 55 Pulgadas Led Thinq Ai 55UR7300PSA",
+      "image": "https://carsaperupoc.vtexassets.com/arquivos/ids/160315-300-300?v=638545826705470000&width=300&height=300&aspect=true",
+      "price": "S/. 2,599.00",
+      "originalPrice": "S/. 1,799.00",
+      "brand": "LG",
+      "discount": "31%",
+      "interest": "Meses sin intereses"
+    },
+    {
+      "id": 3,
+      "name": "Televisor Smart UHD 4K LG 55 Pulgadas Led Thinq Ai 55UR7300PSA",
+      "image": "https://carsaperupoc.vtexassets.com/arquivos/ids/160315-300-300?v=638545826705470000&width=300&height=300&aspect=true",
+      "price": "S/. 1,899.00",
+      "originalPrice": "S/. 1,519.00",
+      "brand": "LG",
+      "discount": "20%",
+      "interest": "Meses sin intereses"
+    },
+    {
+      "id": 4,
+      "name": "Televisor Smart UHD 4K LG 55 Pulgadas Led Thinq Ai 55UR7300PSA",
+      "image": "https://carsaperupoc.vtexassets.com/arquivos/ids/160315-300-300?v=638545826705470000&width=300&height=300&aspect=true",
+      "price": "S/. 2,099.00",
+      "originalPrice": "S/. 1,449.00",
+      "brand": "PHILIPS",
+      "discount": "31%",
+      "interest": "Meses sin intereses"
+    },
+    {
+      "id": 5,
+      "name": "Televisor Smart UHD 4K LG 55 Pulgadas Led Thinq Ai 55UR7300PSA",
+      "image": "https://carsaperupoc.vtexassets.com/arquivos/ids/160315-300-300?v=638545826705470000&width=300&height=300&aspect=true",
+      "price": "S/. 1,899.00",
+      "originalPrice": "S/. 1,349.00",
+      "brand": "PHILIPS",
+      "discount": "29%",
+      "interest": "Meses sin intereses"
+    },
+    {
+      "id": 6,
+      "name": "Televisor Smart UHD 4K LG 55 Pulgadas Led Thinq Ai 55UR7300PSA",
+      "image": "https://carsaperupoc.vtexassets.com/arquivos/ids/160315-300-300?v=638545826705470000&width=300&height=300&aspect=true",
+      "price": "S/. 2,149.00",
+      "originalPrice": "S/. 1,899.00",
+      "brand": "LG",
+      "discount": "12%",
+      "interest": "Meses sin intereses"
+    },
+    {
+      "id": 7,
+      "name": "Televisor Smart UHD 4K LG 55 Pulgadas Led Thinq Ai 55UR7300PSA",
+      "image": "https://carsaperupoc.vtexassets.com/arquivos/ids/160315-300-300?v=638545826705470000&width=300&height=300&aspect=true",
+      "price": "S/. 2,599.00",
+      "originalPrice": "S/. 1,799.00",
+      "brand": "LG",
+      "discount": "31%",
+      "interest": "Meses sin intereses"
+    },
+    {
+      "id": 8,
+      "name": "Televisor Smart UHD 4K LG 55 Pulgadas Led Thinq Ai 55UR7300PSA",
+      "image": "https://carsaperupoc.vtexassets.com/arquivos/ids/160315-300-300?v=638545826705470000&width=300&height=300&aspect=true",
+      "price": "S/. 1,899.00",
+      "originalPrice": "S/. 1,519.00",
+      "brand": "LG",
+      "discount": "20%",
+      "interest": "Meses sin intereses"
+    },
+    {
+      "id": 9,
+      "name": "Televisor Smart UHD 4K LG 55 Pulgadas Led Thinq Ai 55UR7300PSA",
+      "image": "https://carsaperupoc.vtexassets.com/arquivos/ids/160315-300-300?v=638545826705470000&width=300&height=300&aspect=true",
+      "price": "S/. 2,099.00",
+      "originalPrice": "S/. 1,449.00",
+      "brand": "PHILIPS",
+      "discount": "31%",
+      "interest": "Meses sin intereses"
+    },
+    {
+      "id": 10,
+      "name": "Televisor Smart UHD 4K LG 55 Pulgadas Led Thinq Ai 55UR7300PSA",
+      "image": "https://carsaperupoc.vtexassets.com/arquivos/ids/160315-300-300?v=638545826705470000&width=300&height=300&aspect=true",
+      "price": "S/. 1,899.00",
+      "originalPrice": "S/. 1,349.00",
+      "brand": "PHILIPS",
+      "discount": "29%",
+      "interest": "Meses sin intereses"
+    }
+  ],
+  "Celulares": [
+    {
+      "id": 1,
+      "name": "Celular 5G Samsung Galaxy Z Fold5 12GB 512GB 50mp Negro",
+      "image": "https://carsaperupoc.vtexassets.com/arquivos/ids/160060-300-300?v=638513118877200000&width=300&height=300&aspect=true",
+      "price": "S/. 8,449.00",
+      "originalPrice": "S/. 5,399.00",
+      "brand": "SAMSUNG",
+      "discount": "36%",
+      "interest": "Meses sin intereses"
+    },
+    {
+      "id": 2,
+      "name": "Celular 5G Samsung A34 6GB 128GB 48mp Negro",
+      "image": "https://carsaperupoc.vtexassets.com/arquivos/ids/160115-300-300?v=638519241506600000&width=300&height=300&aspect=true",
+      "price": "S/. 1,579.00",
+      "originalPrice": "S/. 1,099.00",
+      "brand": "SAMSUNG",
+      "discount": "30%",
+      "interest": "Meses sin intereses"
+    },
+    {
+      "id": 3,
+      "name": "Celular 5G Samsung A25 6.5 8GB 256GB 50MP Negro",
+      "image": "https://carsaperupoc.vtexassets.com/arquivos/ids/159842-300-300?v=638482081342230000&width=300&height=300&aspect=true",
+      "price": "S/. 1,299.00",
+      "originalPrice": "S/. 969.00",
+      "brand": "SAMSUNG",
+      "discount": "25%",
+      "interest": "Meses sin intereses"
+    },
+    {
+      "id": 4,
+      "name": "Celular 5G Samsung Galaxy A54 8GB 256GB 50mp Negro",
+      "image": "https://carsaperupoc.vtexassets.com/arquivos/ids/159654-300-300?v=638477755723970000&width=300&height=300&aspect=true",
+      "price": "S/. 2,099.00",
+      "originalPrice": "S/. 1,599.00",
+      "brand": "SAMSUNG",
+      "discount": "24%",
+      "interest": "Meses sin intereses"
+    },
+    {
+      "id": 5,
+      "name": "Celular 5G Samsung Galaxy S23 8GB 256GB 50mp Phantom Black",
+      "image": "https://carsaperupoc.vtexassets.com/arquivos/ids/160315-300-300?v=638545826705470000&width=300&height=300&aspect=true",
+      "price": "S/. 4,299.00",
+      "originalPrice": "S/. 3,299.00",
+      "brand": "SAMSUNG",
+      "discount": "23%",
+      "interest": "Meses sin intereses"
+    },
+    {
+      "id": 6,
+      "name": "Celular 5G Samsung Galaxy Z Fold5 12GB 512GB 50mp Negro",
+      "image": "https://carsaperupoc.vtexassets.com/arquivos/ids/160060-300-300?v=638513118877200000&width=300&height=300&aspect=true",
+      "price": "S/. 8,449.00",
+      "originalPrice": "S/. 5,399.00",
+      "brand": "SAMSUNG",
+      "discount": "36%",
+      "interest": "Meses sin intereses"
+    },
+    {
+      "id": 7,
+      "name": "Celular 5G Samsung A34 6GB 128GB 48mp Negro",
+      "image": "https://carsaperupoc.vtexassets.com/arquivos/ids/160115-300-300?v=638519241506600000&width=300&height=300&aspect=true",
+      "price": "S/. 1,579.00",
+      "originalPrice": "S/. 1,099.00",
+      "brand": "SAMSUNG",
+      "discount": "30%",
+      "interest": "Meses sin intereses"
+    },
+    {
+      "id": 8,
+      "name": "Celular 5G Samsung A25 6.5 8GB 256GB 50MP Negro",
+      "image": "https://carsaperupoc.vtexassets.com/arquivos/ids/159842-300-300?v=638482081342230000&width=300&height=300&aspect=true",
+      "price": "S/. 1,299.00",
+      "originalPrice": "S/. 969.00",
+      "brand": "SAMSUNG",
+      "discount": "25%",
+      "interest": "Meses sin intereses"
+    },
+    {
+      "id": 9,
+      "name": "Celular 5G Samsung Galaxy A54 8GB 256GB 50mp Negro",
+      "image": "https://carsaperupoc.vtexassets.com/arquivos/ids/159654-300-300?v=638477755723970000&width=300&height=300&aspect=true",
+      "price": "S/. 2,099.00",
+      "originalPrice": "S/. 1,599.00",
+      "brand": "SAMSUNG",
+      "discount": "24%",
+      "interest": "Meses sin intereses"
+    },
+    {
+      "id": 10,
+      "name": "Celular 5G Samsung Galaxy S23 8GB 256GB 50mp Phantom Black",
+      "image": "https://carsaperupoc.vtexassets.com/arquivos/ids/160315-300-300?v=638545826705470000&width=300&height=300&aspect=true",
+      "price": "S/. 4,299.00",
+      "originalPrice": "S/. 3,299.00",
+      "brand": "SAMSUNG",
+      "discount": "23%",
+      "interest": "Meses sin intereses"
+    }
+  ],
+  "Laptops": [
+    {
+      "id": 1,
+      "name": "Laptop Asus Vivobook Ci5 X1504ZA-NJ278W 15.6 8GB 512GB W11",
+      "image": "https://carsaperupoc.vtexassets.com/arquivos/ids/155557-300-300?v=638439491338630000&width=300&height=300&aspect=true",
+      "price": "S/. 2,599.00",
+      "originalPrice": "S/. 2,099.00",
+      "brand": "ASUS",
+      "discount": "19%",
+      "interest": "Meses sin intereses"
+    },
+    {
+      "id": 2,
+      "name": "Laptop Asus E1504GA-NJ006W 15 Core I3 8GB 256GB W11",
+      "image": "https://carsaperupoc.vtexassets.com/arquivos/ids/155557-300-300?v=638439491338630000&width=300&height=300&aspect=true",
+      "price": "S/. 1,579.00",
+      "originalPrice": "S/. 1,099.00",
+      "brand": "ASUS",
+      "discount": "18%",
+      "interest": "Meses sin intereses"
+    },
+    {
+      "id": 3,
+      "name": "Laptop Asus E1504FA-NJ404W 15.6 Ryzen 5 8GB 512GB W11 SSD",
+      "image": "https://carsaperupoc.vtexassets.com/arquivos/ids/155557-300-300?v=638439491338630000&width=300&height=300&aspect=true",
+      "price": "S/. 2,099.00",
+      "originalPrice": "S/. 1,799.00",
+      "brand": "ASUS",
+      "discount": "14%",
+      "interest": "Meses sin intereses"
+    },
+    {
+      "id": 4,
+      "name": "Laptop Lenovo Ci3-12th 15.6 8GB 256GB SSD W11",
+      "image": "https://carsaperupoc.vtexassets.com/arquivos/ids/159833-300-300?v=638482034985200000&width=300&height=300&aspect=true",
+      "price": "S/. 1,519.00",
+      "originalPrice": "S/. 1,699.00",
+      "brand": "LENOVO",
+      "discount": "11%",
+      "interest": "Meses sin intereses"
+    },
+    {
+      "id": 5,
+      "name": "Laptop Lenovo Ci7-12va Gen 82TT00BESP 15.6 16GB 512GB W11 SSD",
+      "image": "https://carsaperupoc.vtexassets.com/arquivos/ids/159818-300-300?v=638478347829500000&width=300&height=300&aspect=true",
+      "price": "S/. 2,599.00",
+      "originalPrice": "S/. 2,899.00",
+      "brand": "LENOVO",
+      "discount": "10%",
+      "interest": "Meses sin intereses"
+    },
+    {
+      "id": 6,
+      "name": "Laptop Asus Vivobook Ci5 X1504ZA-NJ278W 15.6 8GB 512GB W11",
+      "image": "https://carsaperupoc.vtexassets.com/arquivos/ids/155557-300-300?v=638439491338630000&width=300&height=300&aspect=true",
+      "price": "S/. 2,599.00",
+      "originalPrice": "S/. 2,099.00",
+      "brand": "ASUS",
+      "discount": "19%",
+      "interest": "Meses sin intereses"
+    },
+    {
+      "id": 7,
+      "name": "Laptop Asus E1504GA-NJ006W 15 Core I3 8GB 256GB W11",
+      "image": "https://carsaperupoc.vtexassets.com/arquivos/ids/155557-300-300?v=638439491338630000&width=300&height=300&aspect=true",
+      "price": "S/. 1,579.00",
+      "originalPrice": "S/. 1,099.00",
+      "brand": "ASUS",
+      "discount": "18%",
+      "interest": "Meses sin intereses"
+    },
+    {
+      "id": 8,
+      "name": "Laptop Asus E1504FA-NJ404W 15.6 Ryzen 5 8GB 512GB W11 SSD",
+      "image": "https://carsaperupoc.vtexassets.com/arquivos/ids/155557-300-300?v=638439491338630000&width=300&height=300&aspect=true",
+      "price": "S/. 2,099.00",
+      "originalPrice": "S/. 1,799.00",
+      "brand": "ASUS",
+      "discount": "14%",
+      "interest": "Meses sin intereses"
+    },
+    {
+      "id": 9,
+      "name": "Laptop Lenovo Ci3-12th 15.6 8GB 256GB SSD W11",
+      "image": "https://carsaperupoc.vtexassets.com/arquivos/ids/159833-300-300?v=638482034985200000&width=300&height=300&aspect=true",
+      "price": "S/. 1,519.00",
+      "originalPrice": "S/. 1,699.00",
+      "brand": "LENOVO",
+      "discount": "11%",
+      "interest": "Meses sin intereses"
+    },
+    {
+      "id": 10,
+      "name": "Laptop Lenovo Ci7-12va Gen 82TT00BESP 15.6 16GB 512GB W11 SSD",
+      "image": "https://carsaperupoc.vtexassets.com/arquivos/ids/159818-300-300?v=638478347829500000&width=300&height=300&aspect=true",
+      "price": "S/. 2,599.00",
+      "originalPrice": "S/. 2,899.00",
+      "brand": "LENOVO",
+      "discount": "10%",
+      "interest": "Meses sin intereses"
+    }
+  ]
+}
