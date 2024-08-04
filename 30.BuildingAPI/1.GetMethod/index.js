@@ -13,8 +13,8 @@ app.get('/random', (req, res) => {
   let number = Math.round(Math.random() * (jokes.length + 1), 0);
   res.json(jokes[number]);
 });
-//2. GET a specific joke
 
+//2. GET a specific joke
 app.get(`/jokes/:id`, (req, res) => {
   let id = parseInt(req.params.id.replace(':', ''));
   res.json(jokes.find((joke) => joke.id === id));
